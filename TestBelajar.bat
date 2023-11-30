@@ -1,8 +1,8 @@
 @echo off
-echo Do you want to proceed ?
+echo Lanjutkan ?
 choice /c yn /n
 
 if errorlevel 2
-  (echo You clicked No!)
+  (echo Kamu pilih No!)
 else
-  (echo You clicked Yes!)
+  (echo Kamu pilih Yes!)
